@@ -1,0 +1,32 @@
+html,
+body,
+#app {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	@apply bg-true-gray-900;
+}
+
+button {
+	@apply focus:outline-none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+	-moz-appearance: textfield;
+}
+
+pre {
+	@apply bg-dark-500 px-8 pt-4 rounded-lg text-emerald-500;
+}
+
+.debug {
+	@apply absolute top-0 left-0 p-2 text-sm bg-purple-40/90;
+}
